@@ -1,2 +1,4 @@
 # Docusign-Scala
-Scala Library for Docusign
+Scala Library for implementing digital signiture using Docusign API
+
+
