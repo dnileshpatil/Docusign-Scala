@@ -19,9 +19,9 @@ object SignitureRequestScala {
   def main(args: Array[String]) : Unit = {
 
     // Enter your DocuSign credentials:
-    val UserName = "nilesh.p57@gmail.com"
-    val Password = "Unlockme@this"
-    val IntegratorKey = "72aa8066-e918-42e4-9930-11dafa94b180"
+    val UserName = "DocusignUserName"
+    val Password = "PASSWORD"
+    val IntegratorKey = "INTEGRATORKEY"
 
     // for production environment update to "www.docusign.net/restapi"
     val BaseUrl = "https://demo.docusign.net/restapi"
@@ -99,7 +99,7 @@ object SignitureRequestScala {
 
     // add a recipient to sign the document, identified by name, email, and recipientId
     val signer = new Signer
-    signer.setEmail("dnileshpatil@gmail.com")
+    signer.setEmail("Signer@mail.com")
     signer.setName("Nilesh_Signer")
     signer.setRecipientId("1")
 
